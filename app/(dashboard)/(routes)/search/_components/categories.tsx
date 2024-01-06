@@ -8,7 +8,9 @@ import {
   FcMusic,
   FcOldTimeCamera,
   FcSalesPerformance,
-  FcSportsMode
+  FcSportsMode,
+  FcBusiness,
+  FcCalculator,
 } from "react-icons/fc";
 import { IconType } from "react-icons";
 
@@ -26,6 +28,8 @@ const iconMap: Record<Category["name"], IconType> = {
   "Computer Science": FcMultipleDevices,
   "Filming": FcFilmReel,
   "Engineering": FcEngineering,
+  "Business Administration": FcBusiness,
+  "Mathematics": FcCalculator,
 };
 
 export const Categories = ({
